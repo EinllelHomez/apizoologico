@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4040
 
 app.get('/prueba', (req, res)=>{
     res.send('Hola Mundo!!!')
